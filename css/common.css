@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+} 
+
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.content-container{
+  max-width: 1200px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+@media all and (max-width: 650px) {
+  .content-container {flex-wrap: wrap;}
+  .main-content {order: 1;}
+  .sidebar {order: 2;}
+}
