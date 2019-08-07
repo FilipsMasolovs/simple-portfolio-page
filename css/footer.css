@@ -1,73 +1,79 @@
-.footer-container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  align-content: space-between;
-  padding: 10px;
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    padding: 10px;
 }
 
-.footer{
-  background-color: rgb(245,245,245);
-  color: rgb(70,68,70);
-  font: bold 14px arial;
-  width: 100%;
+.footer {
+    background-color: rgb(245, 245, 245);
+    color: rgb(70, 68, 70);
+    font: bold 14px arial;
+    width: 100%;
 }
 
-.footer-navigation{
-  padding: 0px;
-}
-.footer-social{
-  padding: 0px;
+.footer-navigation {
+    padding: 0px;
 }
 
-.footer-link{
-  text-decoration: none;
-  color: rgb(70,68,70);
-  padding: 10px;
-  display: inline-block;
+.footer-social {
+    padding: 0px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: rgb(70, 68, 70);
+    padding: 10px;
+    display: inline-block;
 }
 
 .languages {
-  background-color: transparent;
-  color: rgb(70,68,70);
-  font: bold 14px arial;
-  border:0;
-  margin: 0 10px 0 0;
-  -webkit-appearance: none;
-  background-image: url(../assets/arrow-down.svg);
-  padding: 10px;
-  background-position: center right;
-  background-size: 10px;
-  background-repeat: no-repeat;
-  vertical-align: middle;
+    background-color: transparent;
+    color: rgb(70, 68, 70);
+    font: bold 14px arial;
+    border: 0;
+    margin: 0 10px 0 0;
+    -webkit-appearance: none;
+    background-image: url(../assets/arrow-down.svg);
+    padding: 10px;
+    background-position: center right;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
 }
 
-.footer-social-icons{
-  display: inline-block;
-  padding: 10px 0px 10px 10px;
-  vertical-align: middle;
-}
-.social-link{
-  text-decoration: none;
-  color: rgb(70,68,70);
-  padding: 0 10px 0 0;
-  transition: color 0.4s;
-}
-.social-link-twitter:hover{
-  color: #00acee;
-}
-.social-link-facebook:hover{
-  color: #3b5998;
-}
-.social-link-youtube:hover{
-  color: #c4302b;
-}
-.social-link-linkedin:hover{
-  color: #0077B5;
+.footer-social-icons {
+    display: inline-block;
+    padding: 10px 0px 10px 10px;
+    vertical-align: middle;
 }
 
-.fa{
-  font-size: 20px;
+.social-link {
+    text-decoration: none;
+    color: rgb(70, 68, 70);
+    padding: 0 10px 0 0;
+    transition: color 0.4s;
+}
+
+.social-link-twitter:hover {
+    color: #00acee;
+}
+
+.social-link-facebook:hover {
+    color: #3b5998;
+}
+
+.social-link-youtube:hover {
+    color: #c4302b;
+}
+
+.social-link-linkedin:hover {
+    color: #0077B5;
+}
+
+.fa {
+    font-size: 20px;
 }

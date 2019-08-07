@@ -1,29 +1,29 @@
-.section-title{
+.section-title {
     font: bold 36px sans-serif;
-    text-align:center;
+    text-align: center;
     margin: 0;
     padding: 0 0 20px 0;
 }
 
-.testimonials{
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content:space-between;
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.testimonial-block{
+.testimonial-block {
     box-shadow: 0 0 5px 0 #888888;
     margin-bottom: 30px;
-    display:flex;
-    flex-direction:column;
-    align-content:stretch;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
     width: 100%;
 }
 
-.testimonial-block-header{
+.testimonial-block-header {
     font: normal 15px Arial;
-    color: rgb(99,99,99);
+    color: rgb(99, 99, 99);
     line-height: 1.6em;
     text-align: center;
     background-color: white;
@@ -31,41 +31,54 @@
     flex-grow: 1;
 }
 
-.testimonial-block-footer{
-    display:flex;
-    flex-direction:column;
-    background-color: rgb(239,247,251);
+.testimonial-block-footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(239, 247, 251);
     padding: 20px;
     justify-content: center;
     align-items: center;
 }
 
-.testimonial-image{
+.testimonial-image {
     object-fit: cover;
     border-radius: 50%;
     width: 80px;
     height: 80px;
 }
 
-.testimonial-name{
+.testimonial-name {
     font: bold 16px Arial;
-    color: rgb(98,122,138);
-    padding-top:5px;
+    color: rgb(98, 122, 138);
+    padding-top: 5px;
     margin: 0;
 }
 
-.testimonial-position{
+.testimonial-position {
     font: normal 14px Arial;
-    color: rgb(139,174,196);
-    padding-top:5px;
+    color: rgb(139, 174, 196);
+    padding-top: 5px;
     margin: 0;
     text-align: center;
 }
 
+.testimonial-quote {
+    margin: 0;
+}
+
+.testimonial-quote::before,
+.testimonial-quote::after {
+    content: '"';
+}
+
 @media all and (min-width: 800px) {
-    .testimonial-block {width: calc(50% - 15px);}
+    .testimonial-block {
+        width: calc(50% - 15px);
+    }
 }
 
 @media all and (min-width: 1050px) {
-    .testimonial-block {width: calc(33.33333% - 20px);}
+    .testimonial-block {
+        width: calc(33.33333% - 20px);
+    }
 }

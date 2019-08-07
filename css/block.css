@@ -1,51 +1,56 @@
-.main-content{
+.main-content {
     max-width: 900px;
     padding: 20px 20px 0px 20px;
 }
 
-.container-blocks{
-    display:flex;
+.container-blocks {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.block{
-    border:1px darkgrey solid;
+.block {
+    border: 1px darkgrey solid;
     border-radius: 25px;
     background-color: lightgrey;
     box-sizing: border-box;
-    width:100%;
+    width: 100%;
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
 }
 
-.block--blue{
+.block--blue {
     border-bottom: 5px blue solid;
 }
-.block--green{
+
+.block--green {
     border-bottom: 5px green solid;
 }
-.block--grey{
+
+.block--grey {
     border-bottom: 5px grey solid;
 }
-.block--red{
+
+.block--red {
     border-bottom: 5px red solid;
 }
-.block--orange{
+
+.block--orange {
     border-bottom: 5px orange solid;
 }
-.block--yellow{
+
+.block--yellow {
     border-bottom: 5px yellow solid;
 }
 
-.block-header-icon{
+.block-header-icon {
     padding-right: 10px;
     vertical-align: middle;
     width: 30px;
 }
 
-.block-header{
+.block-header {
     display: flex;
     border-bottom: 1px grey dotted;
     line-height: 30px;
@@ -56,15 +61,15 @@
     align-items: center;
 }
 
-.block-header-title{
+.block-header-title {
     display: inline;
     vertical-align: middle;
     font: normal 26px Arial;
     margin: 0;
 }
 
-.block-footer{
-    display:flex;
+.block-footer {
+    display: flex;
     flex-wrap: wrap;
     font: normal 12px Arial;
     padding: 10px;
@@ -72,18 +77,22 @@
     flex-grow: 1;
 }
 
-.block-footer-item{
-    display:flex;
-    width:33.33334%;
+.block-footer-item {
+    display: flex;
+    width: 33.33334%;
     margin-bottom: 5px;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
 }
 
 @media all and (min-width: 800px) {
-    .block {width: calc(50% - 15px);}
+    .block {
+        width: calc(50% - 15px);
+    }
 }
 
 @media all and (min-width: 1050px) {
-    .block {width: calc(33.33333% - 20px);}
+    .block {
+        width: calc(33.33333% - 20px);
+    }
 }

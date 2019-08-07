@@ -8,31 +8,31 @@
     max-width: 100%;
 }
 
-.list{
+.list {
     list-style: none;
     line-height: 2.2em;
     margin: 0;
     padding: 0;
 }
 
-.list-item .fa{
-    margin-right: 5px; 
-    width:20px;
+.list-item .fa {
+    margin-right: 5px;
+    width: 20px;
     text-align: center;
 }
 
-.link{
+.link {
     text-decoration: none;
     color: blue;
     border-bottom: 1px solid transparent;
     transition: border-color 0.5s;
 }
 
-.link:hover{
+.link:hover {
     border-color: blue;
 }
 
-.button{
+.button {
     background-color: green;
     color: #fff;
     border: none;
@@ -44,7 +44,7 @@
     transition: background-color 0.5s;
 }
 
-.button:hover{
+.button:hover {
     background-color: darkgreen;
     color: #fff;
 }
