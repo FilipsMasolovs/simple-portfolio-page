@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta description="My first HTML & CSS only website.">
+    <script src="https://kit.fontawesome.com/343d35d9dd.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>TASK 7</title>
@@ -55,6 +56,44 @@
             </ul>
         </nav>
     </header>
+    <div class="slider" id="slider">
+        <div class="slides">
+            <div class="slide current" style="background-image: url(assets/1.jpg)">
+                <div class="content">
+                    <h2 class="slide-heading">AWESOME</h2>
+                    <h3 class="slide-sub-heading">Awesome image slider!</h3>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('assets/2.jpeg')">
+                <div class="content">
+                    <h2 class="slide-heading">AWESOME!</h2>
+                    <h3 class="slide-sub-heading">As explained by J.Konutis.</h3>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('assets/3.jpg')">
+                <div class="content">
+                    <h2 class="slide-heading">AWESOME!</h2>
+                    <h3 class="slide-sub-heading">With help of YouTube and Google!</h3>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('assets/4.jpg')">
+                <div class="content">
+                    <h2 class="slide-heading">AWESOME!</h2>
+                    <h3 class="slide-sub-heading">Turned out quite nice!</h3>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('assets/5.jpg')">
+                <div class="content">
+                    <h2 class="slide-heading">AWESOME!</h2>
+                    <h3 class="slide-sub-heading">Here we go again...</h3>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <i class="fas fa-arrow-right" id="nextBtn"></i>
+            <i class="fas fa-arrow-left" id="prevBtn"></i>
+        </div>
+    </div>
     <div class="content-container">
         <aside class="sidebar">
             <img class="profile-img" src="./assets/profileimg.jpeg" width="200" alt="Filips Masolovs">
@@ -270,14 +309,9 @@
             </div>
         </div>
     </footer>
-    <script>
-        //Dropdown transition on first load FIX
-        //You can follow the bug at https://crbug.com/332189 and https://crbug.com/167083.
 
-        //Search transition on first load FIX
+    <script type="text/javascript" src="script/main.js"></script>
 
-        //Icon transition on first load FIX
-    </script>
 </body>
 
 </html>
